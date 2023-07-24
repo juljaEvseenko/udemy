@@ -1,0 +1,9 @@
+.button {
+    &.rounded {
+        border-radius: 20px;
+    }
+
+    &.outline {
+        background-color: transparent;
+    }
+}

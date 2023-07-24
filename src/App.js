@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { AccordionPage } from "./pages/AccordionPage";
+import { ButtonPage } from "./pages/ButtonPage";
+import { DropdownPage } from "./pages/DropdownPage";
+import { ModalPage } from "./pages/ModalPage";
+import { TablePage } from "./pages/TablePage";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export const App = () => {
+  return <>
+    <ButtonPage />
+    <hr />
+    <AccordionPage />
+    <hr />
+    <DropdownPage />
+    <hr />
+    <ModalPage/>
+    <hr />
+    <TablePage />
+  </>
 }
-
-export default App;
