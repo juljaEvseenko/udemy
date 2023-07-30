@@ -1,5 +1,4 @@
 import { SortableTable } from "../../elements/SortableTable";
-import { Table } from "../../elements/Table";
 import { fruits } from "./data";
 
 export const TablePage = () => {
